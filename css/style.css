@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  color: #4A4A4A;
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
+}
+
+/*------------*/
+/*  Top Menu  */
+/*------------*/
+.top-menu {
+  background: #333;
+  min-height: 52px;
+  overflow: hidden;
+  box-shadow: 0px 2px 5px grey;
+}
+.top-menu .logo {
+  float:left;
+  color: #ff6e63;
+  letter-spacing: 3px; 
+  font-family: monospace;
+}
+.top-menu .login-signup {
+  float: right;
+}
+.top-menu .logo,
+.top-menu .login-signup a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+}
+.top-menu .login-signup a {
+  float: right;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+.top-menu .login-signup a:hover {
+  background: #000;
+}
+
+/*---------------*/
+/*  Header Image */
+/*---------------*/
+#header-image {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../images/header-chart.jpg');
+  height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+#header-image h1, #header-image .search-field {
+  position: absolute;
+}
+
+#header-image h1 {
+  position: absolute;
+	width: 960px;
+	top: 50%;
+	left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+#header-image .search-field {
+  width: 45%;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#header-image .search-field input {
+  padding: 10px;
+}
+
+#header-image .search-field input[type=text] {
+  width: 70%;
+}
+
+section {
+  padding: 30px;
+}
+
+section h2 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+section h2:after {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background-color: #ff6e63;
+  display: block;
+  margin: 8px auto 8px auto;
+}
+
+/*---------------*/
+/*  CATEGORIES   */
+/*---------------*/
+
+.box {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*---------------*/
+/*  Footer       */
+/*---------------*/
+footer {
+  background: #333;
+  color: #f2f2f2;
+  padding-top: 20px;
+}
+
+footer h4:after {
+  content: '';
+  width: 100px;
+  height: 3px;
+  background-color: #ff6e63;
+  display: block;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer div input[type=email] {
+  background: #f9f9f9;
+  padding: 4px;
+  border: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+footer div input[type=submit] {
+  padding: 4px;
+  border: 0;
+  background: #28a745;
+  color: #f2f2f2;
+}
+
+footer .rights-info {
+  text-align: center;
+}
+
+footer p {
+  padding-top: 10px;
+}
